@@ -1,0 +1,8 @@
+<div class="child-container">
+    <div>{{questionText}}</div>
+    <div class="rates-container">
+        <div [ngClass]="{'rate-box': true, 'rate-box-selected': rate === selectedRate}" *ngFor="let rate of answerRates" (click)="selectRate(rate)">
+            {{rate}}
+        </div>
+    </div>
+</div>
