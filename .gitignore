@@ -41,19 +41,54 @@ typings/
 
 # Optional npm cache directory
 .npm
+# compiled output
+/dist
+/dist-server
+/tmp
+/out-tsc
 
 # Optional eslint cache
 .eslintcache
+# dependencies
+/node_modules
 
 # Optional REPL history
 .node_repl_history
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
 
 # Output of 'npm pack'
 *.tgz
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 
 # Yarn Integrity file
 .yarn-integrity
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
 
 # dotenv environment variables file
 .env
+# e2e
+/e2e/*.js
+/e2e/*.map
 
+# System Files
+.DS_Store
+Thumbs.db
